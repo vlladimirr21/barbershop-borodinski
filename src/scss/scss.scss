@@ -1,0 +1,16 @@
+$primary-color: green;
+$secondary-color: red;
+$tertiary-color: blue;
+
+@mixin flex-sb-c() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flex-sa-c {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+

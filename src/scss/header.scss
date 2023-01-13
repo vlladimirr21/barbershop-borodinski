@@ -1,0 +1,40 @@
+.header-container {
+    @include flex-sb-c;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+
+.header-logo {
+    
+}
+
+.navigation {
+    @include flex-sb-c;
+}
+
+.navigation > * {
+    margin-right: 32px;
+    font-family: 'Bona Nova';
+    font-size: 14px;
+    color: white;
+}
+
+.navigation a:last-child {
+    margin-right: 0;
+}
+
+.making-container {
+    @include flex-sb-c;
+}
+
+.making-button {
+    height: 36px;
+    padding: 9px 15px;
+    background: #018ABE;
+    border-radius: 3px;
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    border: 0;
+}

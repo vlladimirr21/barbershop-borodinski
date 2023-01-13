@@ -1,0 +1,54 @@
+.base-screen {
+    @include flex-sb-c;
+    justify-content: center;
+    background-image: url(/src/img/first-screen-img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.base-container {
+    @include flex-sb-c;
+    flex-direction: column;
+    margin: 210px 0px;
+}
+
+.base-icons-box {
+    @include flex-sb-c;
+    justify-content: center;
+}
+
+.base-icon-1 {
+    width: 28px;
+    height: 14px;
+    background-color: white;
+    border-radius: 0px 50px;
+}
+
+.base-container-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: white;
+    margin: 0px 65px;
+}
+
+.base-icon-2 {
+    width: 28px;
+    height: 14px;
+    background-color: white;
+    border-radius: 0px 50px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.base-container-text {
+    // margin: 210px 0px;
+}
+
+.base-text {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+    color: white;
+    text-align: center;
+}
