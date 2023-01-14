@@ -1,11 +1,17 @@
 .sessions {
     // @include flex-sb-c;
     // justify-content: center;
+    margin-top: 150px;
 }
 
 .sessions-title-container {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.sessions-icon-1, .sessions-icon-2 {
+    background-color: #018ABE;
 }
 
 .sessions-title {
@@ -13,15 +19,17 @@
     font-size: 42px;
     line-height: 140%;
     color: white;
+    margin: 0px 45px;
 }
 
 .sessions-imgs {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
+    margin-top: 100px;
 }
 
-.sessions-img-1 {
+.sessions-img-first {
     background-image: url(/src/img/sessions-img.png);
     width: 416px;
     height: 540px;
@@ -30,7 +38,7 @@
     align-items: flex-end;
 }
 
-.sessions-img-1-text {
+.sessions-img-first-text {
     font-weight: 700;
     font-size: 24px;
     line-height: 140%;
@@ -38,4 +46,12 @@
     font-size: 24px;
     line-height: 140%;
     color: white;
+    font-family: "El Messiri";
+}
+
+.sessions-imgs-second {
+    @include flex-sb-c;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

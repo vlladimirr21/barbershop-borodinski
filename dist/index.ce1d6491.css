@@ -133,24 +133,35 @@ p {
   line-height: 140%;
 }
 
+.sessions {
+  margin-top: 150px;
+}
+
 .sessions-title-container {
   justify-content: center;
+  align-items: center;
   display: flex;
+}
+
+.sessions-icon-1, .sessions-icon-2 {
+  background-color: #018abe;
 }
 
 .sessions-title {
   color: #fff;
+  margin: 0 45px;
   font-size: 42px;
   font-weight: 700;
   line-height: 140%;
 }
 
 .sessions-imgs {
-  flex-flow: wrap;
+  flex-direction: row;
+  margin-top: 100px;
   display: flex;
 }
 
-.sessions-img-1 {
+.sessions-img-first {
   width: 416px;
   height: 540px;
   background-image: url("sessions-img.3003fc7d.png");
@@ -159,11 +170,19 @@ p {
   display: flex;
 }
 
-.sessions-img-1-text {
+.sessions-img-first-text {
   color: #fff;
+  font-family: El Messiri;
   font-size: 24px;
   font-weight: 700;
   line-height: 140%;
+}
+
+.sessions-imgs-second {
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
 }
 
 /*# sourceMappingURL=index.ce1d6491.css.map */
