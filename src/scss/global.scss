@@ -1,10 +1,10 @@
 html, body {
     margin: 0;
-    padding: 0;
+    padding: 20px 50px;
 }
   
 html {
-    width: 100%;
+    width: 1920px;
 }
   
 body {
@@ -36,4 +36,68 @@ ol, li {
 p {
     margin-block-start: 0;
     margin-block-end: 0;
+}
+
+.button {
+    height: 36px;
+    padding: 9px 15px;
+    background: #018ABE;
+    border-radius: 3px;
+    border: 0;
+}
+
+.button-light {
+    background-color: #ffffff;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    color: #ffffff;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.title::before, .title::after {
+    content: "";
+    width: 28px;
+    height: 14px;
+    background-color: #018ABE;
+    border-radius: 0px 50px;
+}
+
+
+.title::before {
+    margin-right: 2%;
+}
+
+.title::after {
+    margin-left: 2%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.text-in-box {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #ffffff;
+    font-family: "El Messiri";
+    text-align: start;
+    margin: 30px 40px;
+}
+
+.img-box {
+    background-image: url(/src/img/sessions-img.png);
+    // border: 1px solid white;
+    height: 250px;
+    width: 410px;
+    border-radius: 10px;
+    background-position: center;
 }

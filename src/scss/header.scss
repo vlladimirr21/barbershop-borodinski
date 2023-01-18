@@ -1,15 +1,12 @@
-.header-container {
+.header {
     @include flex-sb-c;
-    justify-content: space-between;
-    padding: 30px 30px;
-}
-
-.header-logo {
-    
+    justify-content: center;
+    padding-bottom: 50px;
 }
 
 .navigation {
     @include flex-sb-c;
+    padding: 0 16.5%;
 }
 
 .navigation > * {
@@ -23,18 +20,10 @@
     margin-right: 0;
 }
 
-.making-container {
-    @include flex-sb-c;
-}
 
-.making-button {
-    height: 36px;
-    padding: 9px 15px;
-    background: #018ABE;
-    border-radius: 3px;
-    color: white;
+.text-button {
     font-weight: 500;
     font-size: 13px;
     line-height: 20px;
-    border: 0;
+    color: white;
 }

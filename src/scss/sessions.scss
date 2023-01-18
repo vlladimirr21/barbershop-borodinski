@@ -1,57 +1,37 @@
-.sessions {
-    // @include flex-sb-c;
-    // justify-content: center;
-    margin-top: 150px;
-}
-
-.sessions-title-container {
-    display: flex;
+.sessions-boxes {
+    @include flex-sa-c;
     justify-content: center;
-    align-items: center;
+    // margin: 20px 20px;
+    column-gap: 20px;
 }
 
-.sessions-icon-1, .sessions-icon-2 {
-    background-color: #018ABE;
-}
-
-.sessions-title {
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 140%;
-    color: white;
-    margin: 0px 45px;
-}
-
-.sessions-imgs {
+.active-box {
+    height: 520px;
     display: flex;
-    flex-direction: row;
-    // flex-wrap: wrap;
-    margin-top: 100px;
-}
-
-.sessions-img-first {
-    background-image: url(/src/img/sessions-img.png);
-    width: 416px;
-    height: 540px;
-    display: flex;
-    justify-content: center;
     align-items: flex-end;
 }
 
-.sessions-img-first-text {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 140%;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 140%;
-    color: white;
-    font-family: "El Messiri";
+.inactive-boxes {
+    @include flex-sa-c;
+    flex-direction: column;
+    gap: 20px 20px;
 }
 
-.sessions-imgs-second {
-    @include flex-sb-c;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
+.inactive-boxes1 {
+    @include flex-sa-c;
+    // flex-direction: column;
+    // height: 250px;
+    // margin-bottom: 20px;
+    column-gap: 20px;
+}
+
+.inactive-box1 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.inactive-boxes2 {
+    @include flex-sa-c;
+    // flex-direction: column;
+    column-gap: 20px;
 }

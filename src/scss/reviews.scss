@@ -1,0 +1,60 @@
+.slideshow-container {
+    position: relative;
+}
+
+/* Контейнеры для слайдов */
+.mySlides {
+    display: flex;
+    justify-content: center;
+}
+
+/* Тест внутри слайдов */
+.text {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    background-color: #018ABE;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    width: 33%;
+    text-align: start;
+    height: max-content;
+    border-radius: 10px;
+    padding: 50px 60px;
+}
+
+.mySlides-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    margin: 20px 0px;
+}
+
+.mySlides-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+/* Иконки для переключения слайдов */
+.dot {
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin: 60px 10px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background: #FFFFFF;
+    opacity: 0.4;
+}
+
+/* Анимация для иконок переключения */
+.fade {
+    animation-duration: 1.5s;
+}
